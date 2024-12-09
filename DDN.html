@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NonNime - Dandadan sub Indo</title>
+      <link rel="shortcut icon" href="Screenshot (81).png" type="image/x-icon">
+      <style>
+         body {
+        background-color: #333;
+         font-family: "Work Sans", sans-serif;
+ color: white;
+
+      }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #a1c4fd, #c2e9fb);
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ffe400;
+}
+.gambar-bulat {
+    width: 70px; /* Atur ukuran gambar */
+    height: 70px; /* Harus sama dengan lebar agar bulat sempurna */
+    border-radius: 50%; /* Ini yang membuatnya bulat */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+a {
+  color: white;
+}
+/* Tambahkan di styles.css */
+/* Navbar tetap di atas */
+#loading-screen {
+  position: fixed;
+  inset: 0; /* Sama dengan top: 0; left: 0; width: 100%; height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  z-index: 1000;
+  pointer-events: none; /* Agar tidak memengaruhi interaksi */
+}
+
+/* Tambahkan reset untuk konten utama */
+#main-content {
+  position: relative;
+  z-index: 1; /* Pastikan ini di atas background */
+}
+    #video-container {
+      margin: 20px auto;
+      width: 80%;
+      max-width: 800px;
+    }
+    video {
+      width: 100%;
+      border: 2px solid #444;
+      border-radius: 10px;
+    }
+    #episode-buttons {
+      margin-top: 20px;
+    }
+    .episode-button {
+      background-color: #444;
+      color: #fff;
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .episode-button:hover {
+      background-color: #666;
+    }
+      </style>
+        <!-- google font# -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+          <div id="loading-screen">
+    <div class="spinner"></div>
+    <p>Loading, please wait...</p>
+  </div>
+  <div id="main-content" class="hidden">
+  <script src="script.js"></script>
+<nav class="navbar">
+        <div class="logo-container">
+            <img src="Screenshot (81).png" alt="Logo" class="logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index2.html">Anime List</a>
+            <li><a href="aboutnonime.html">About</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+
+        </ul>
+    </nav>
+    <p></p>
+<center>
+  <img src="https://m.media-amazon.com/images/M/MV5BYWFhOWMxNTYtZThiMi00ZmQ5LTlmODktN2QwNzUyZjMyZGQzXkEyXkFqcGc@._V1_QL75_UY562_CR9,0,380,562_.jpg" width="200px">
+  <h2>Dandadan</h2>
+  <h3>synopsis :</h3>
+  <h3>Dandadan bercerita tentang dua siswa SMA yang mempunyai kepercayaan berbeda mengenai hantu dan alien. Hal ini membuat keduanya tidak akur dan saling menantang untuk membuktikan kebenaran yang diyakini masing-masing. Momo Ayase, seorang gadis ceria yang mempercayai hantu karena neneknya merupakan seorang medium roh.</h3>
+  <img src="https://m.media-amazon.com/images/M/MV5BYWFhOWMxNTYtZThiMi00ZmQ5LTlmODktN2QwNzUyZjMyZGQzXkEyXkFqcGc@._V1_QL75_UY562_CR9,0,380,562_.jpg" alt="Deskripsi gambar" class="gambar-bulat"><h4>eps 10/12</h4>
+  <div id="video-container">
+    <video id="video-player" controls>
+      <source src="https://s0.wibufile.com/video/DDN-1-MP4HD-SAMEHADAKU.CARE.mp4" type="video/mp4">
+      Browser Anda tidak mendukung video.
+    </video>
+  </div>
+  <div id="episode-buttons">
+    <button class="episode-button" onclick="changeEpisode('https://s0.wibufile.com/video/DDN-1-MP4HD-SAMEHADAKU.CARE.mp4')">Episode 1</button>
+    <button class="episode-button" onclick="changeEpisode('https://s0.wibufile.com/video/DDN-2-MP4HD-SAMEHADAKU.CARE.mp4')">Episode 2</button>
+    <button class="episode-button" onclick="changeEpisode('https://s0.wibufile.com/video/DDN-3-MP4HD-SAMEHADAKU.CARE.mp4')">Episode 3</button>
+     <button class="episode-button" onclick="changeEpisode('https://s0.wibufile.com/video/DDN-4-MP4HD-SAMEHADAKU.CARE.mp4')">Episode 4</button>
+      <button class="episode-button" onclick="changeEpisode('https://s0.wibufile.com/video/DDN-5-MP4HD-SAMEHADAKU.CARE.mp4')">Episode 5</button>
+       <button class="episode-button" onclick="changeEpisode('https://s0.wibufile.com/video/DDN-6-MP4HD-SAMEHADAKU.CARE.mp4')">Episode 6</button>
+        <button class="episode-button" onclick="changeEpisode('https://s0.wibufile.com/video/DDN-7-MP4HD-SAMEHADAKU.CARE.mp4')">Episode 7</button>
+         <button class="episode-button" onclick="changeEpisode('https://s0.wibufile.com/video/DDN-8-MP4HD-SAMEHADAKU.CARE.mp4')">Episode 8</button>
+          <button class="episode-button" onclick="changeEpisode('https://s0.wibufile.com/video/DDN-9-MP4HD-SAMEHADAKU.CARE.mp4')">Episode 9</button>
+           <button class="episode-button" onclick="changeEpisode('https://s0.wibufile.com/video/DDN-10-MP4HD-SAMEHADAKU.CARE.mp4')">Episode 10</button>
+  </div>
+
+  <script>
+    // Function to change video source dynamically
+    function changeEpisode(videoUrl) {
+      const videoPlayer = document.getElementById('video-player');
+      const videoSource = videoPlayer.querySelector('source');
+      videoSource.src = videoUrl;
+      videoPlayer.load(); // Reload the video with the new source
+    }
+  </script>
+</center>
+    </body>
+    </html>
